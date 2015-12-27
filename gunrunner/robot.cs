@@ -14,15 +14,18 @@ namespace gunrunner
         
         public void HandleInput()
         {
-            if (Keyboard.GetState().IsKeyDown(Keys.A)&& Keyboard.GetState().IsKeyDown(Keys.D)) { velocityX = 0; }
-            else if (Keyboard.GetState().IsKeyDown(Keys.A)) { velocityX = -1 * maxvelocityX; }
-            else if (Keyboard.GetState().IsKeyDown(Keys.D)) { velocityX = maxvelocityX; }
-            else { velocityX = 0; }
+
+                if (Keyboard.GetState().IsKeyDown(Keys.A) && Keyboard.GetState().IsKeyDown(Keys.D)) { velocityX = 0; }
+                else if (Keyboard.GetState().IsKeyDown(Keys.A)) { velocityX = -1 * maxvelocityX; }
+                else if (Keyboard.GetState().IsKeyDown(Keys.D)) { velocityX = maxvelocityX; }
+                else { velocityX = 0; }
+                if (Keyboard.GetState().IsKeyDown(Keys.W)) { velocityY = -100; }
+            
         }
-        public override void Update(GameTime gameTime)
+        public override void Update(GameTime gameTime, List<floor> floorList)
         {
             HandleInput();
-            base.Update(gameTime);
+            base.Update(gameTime, floorList);
         }
         public robot (ContentManager contentManager, Vector2 p)
         {

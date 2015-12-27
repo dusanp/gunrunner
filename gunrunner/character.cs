@@ -16,18 +16,30 @@ namespace gunrunner
         List<Component> compoList;
         public void Fall(GameTime gameTime)
         {
-            velocityY += (float)gameTime.ElapsedGameTime.TotalSeconds * 50;
+            velocityY += (float)gameTime.ElapsedGameTime.TotalSeconds * 200;
         }
-        public bool FloorCollisionCheck()
+        public bool FloorCollisionCheck(List<floor> floorList)
         {
-            return true;
+            bool a = false;
+                foreach (floor f in floorList)
+                {
+                if ((position.X + charskin.Width > f.position.X && position.X < f.position.X + f.charskin.Width) && (position.Y + charskin.Height >= f.position.Y&& position.Y + charskin.Height <= f.position.Y+f.charskin.Height))
+                {
+                    a = true;
+                }
+                }
+            return a;
         }
-        public virtual void Update(GameTime gameTime)
+        public virtual void Update(GameTime gameTime, List<floor> floorList)
         {
 
-            if (FloorCollisionCheck()==false)
+            if (FloorCollisionCheck(floorList)==false)
             {
                 this.Fall(gameTime);
+            }
+            else
+            {
+                if (velocityY > 0) { velocityY = 0; }
             }
             position.X += (float)gameTime.ElapsedGameTime.TotalSeconds * velocityX;
             position.Y += (float)gameTime.ElapsedGameTime.TotalSeconds * velocityY;

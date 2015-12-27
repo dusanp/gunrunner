@@ -21,6 +21,7 @@ namespace gunrunner
             position = p;
             charskin = t;
             r = new Rectangle((int)position.X,(int)position.Y,charskin.Width,charskin.Height);
+            
 
 
         }
