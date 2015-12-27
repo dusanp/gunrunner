@@ -12,19 +12,20 @@ namespace gunrunner
     class robot: character
     {
         
-        public void HandleInput()
+        public void HandleInput(List<floor> floorList)
         {
-
-                if (Keyboard.GetState().IsKeyDown(Keys.A) && Keyboard.GetState().IsKeyDown(Keys.D)) { velocityX = 0; }
-                else if (Keyboard.GetState().IsKeyDown(Keys.A)) { velocityX = -1 * maxvelocityX; }
-                else if (Keyboard.GetState().IsKeyDown(Keys.D)) { velocityX = maxvelocityX; }
-                else { velocityX = 0; }
-                if (Keyboard.GetState().IsKeyDown(Keys.W)) { velocityY = -100; }
-            
+            if (Keyboard.GetState().IsKeyDown(Keys.A) && Keyboard.GetState().IsKeyDown(Keys.D)) { velocityX = 0; }
+            else if (Keyboard.GetState().IsKeyDown(Keys.A)) { velocityX = -1 * maxvelocityX; }
+            else if (Keyboard.GetState().IsKeyDown(Keys.D)) { velocityX = maxvelocityX; }
+            else { velocityX = 0; }
+            if (FloorCollisionCheck(floorList))
+            {
+                if (Keyboard.GetState().IsKeyDown(Keys.W)) { velocityY = -300; }
+            }
         }
         public override void Update(GameTime gameTime, List<floor> floorList)
         {
-            HandleInput();
+            HandleInput(floorList);
             base.Update(gameTime, floorList);
         }
         public robot (ContentManager contentManager, Vector2 p)
@@ -33,7 +34,7 @@ namespace gunrunner
             maxhp = 100;
             hp = maxhp;
             position = p;
-            maxvelocityX = 200;
+            maxvelocityX = 150;
             velocityX = 0;
             
         }

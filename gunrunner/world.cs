@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace gunrunner
         public void Update(GameTime gameTime)
         {
             MC.Update(gameTime, floorList);
+            if (Keyboard.GetState().IsKeyDown(Keys.R)) { MC.position = new Vector2(); MC.velocityY = 0; MC.velocityX = 0; }
         }
         public void Draw(SpriteBatch spriteBatch)
         {
