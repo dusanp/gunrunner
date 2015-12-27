@@ -31,12 +31,20 @@ namespace gunrunner
             }
             position.X += (float)gameTime.ElapsedGameTime.TotalSeconds * velocityX;
             position.Y += (float)gameTime.ElapsedGameTime.TotalSeconds * velocityY;
+            foreach (Component c in compoList)
+            {
+                c.Update(gameTime);
+            }
 
         }
 
         public void Draw(SpriteBatch spritebatch)
         {
             spritebatch.Draw(charskin, position, Color.White);
+            foreach (Component c in compoList)
+            {
+                c.Draw(spritebatch);
+            }
         }
         public void AddComponent(Component c)
         {

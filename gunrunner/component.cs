@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace gunrunner
     class Component
     {
         public Vector2 vectorToChar, position, origin;
-        Texture2D charskin;
+        public Texture2D charskin;
         public character parent;
         public float angle;
 
@@ -25,7 +26,7 @@ namespace gunrunner
         {
             spritebatch.Draw(charskin, position, null, Color.White, angle, origin, 1f,SpriteEffects.None,0);
         }
-        public Component(character c)
+        public Component(ContentManager contentManager, character c)
         {
             parent = c;
             angle = 0;

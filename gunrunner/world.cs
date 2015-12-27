@@ -24,6 +24,7 @@ namespace gunrunner
         public World(ContentManager contentManager)
         {
             MC = new robot(contentManager, Vector2.Zero);
+            MC.AddComponent(new Arm(contentManager, MC));
         }
     }
 }

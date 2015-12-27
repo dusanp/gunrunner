@@ -26,7 +26,7 @@ namespace gunrunner
         }
         public robot (ContentManager contentManager, Vector2 p)
         {
-            this.charskin = contentManager.Load<Texture2D>("MC_torsoS");
+            charskin = contentManager.Load<Texture2D>("MC_torsoS");
             maxhp = 100;
             hp = maxhp;
             position = p;
