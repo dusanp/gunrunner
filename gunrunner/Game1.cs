@@ -12,6 +12,8 @@ namespace gunrunner
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         World world;
+        static TextPrinter textPrinter;
+        
 
         public Game1()
         {
@@ -29,6 +31,7 @@ namespace gunrunner
         {
             // TODO: Add your initialization logic here
             world = new World(Content);
+            textPrinter = new TextPrinter(Content);
             base.Initialize();
         }
 
@@ -40,6 +43,7 @@ namespace gunrunner
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            
             // TODO: use this.Content to load your game content here
         }
 
@@ -74,6 +78,8 @@ namespace gunrunner
             GraphicsDevice.Clear(Color.White);
             spriteBatch.Begin();
             world.Draw(spriteBatch);
+            textPrinter.drawText("AWSD movement, R for reset", new Vector2(50, 50), spriteBatch);
+
             spriteBatch.End();
 
 
