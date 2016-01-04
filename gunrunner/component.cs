@@ -8,11 +8,11 @@ using System.Text;
 
 namespace gunrunner
 {
-    class Component
+    public class Component
     {
         public Vector2 vectorToChar, position, origin;
         public Texture2D charskin;
-        public character parent;
+        public Character parent;
         public float angle;
 
         public virtual void Update(GameTime gameTime)
@@ -26,7 +26,7 @@ namespace gunrunner
         {
             spritebatch.Draw(charskin, position, null, Color.White, angle, origin, 1f,SpriteEffects.None,0);
         }
-        public Component(ContentManager contentManager, character c)
+        public Component(ContentManager contentManager, Character c)
         {
             parent = c;
             angle = 0;

@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace gunrunner
 {
-    class character
+    public class Character
     {
         public int hp, maxhp;
         public float velocityX, maxvelocityX, velocityY;
@@ -18,10 +18,10 @@ namespace gunrunner
         {
             velocityY += (float)gameTime.ElapsedGameTime.TotalSeconds * 200;
         }
-        public bool FloorCollisionCheck(List<floor> floorList)
+        public bool FloorCollisionCheck()
         {
             bool a = false;
-                foreach (floor f in floorList)
+                foreach (Floor f in Game1.world.floorList)
                 {
                 if ((position.X + charskin.Width > f.position.X && position.X < f.position.X + f.charskin.Width) && (position.Y + charskin.Height >= f.position.Y&& position.Y + charskin.Height <= f.position.Y+f.charskin.Height))
                 {
@@ -30,10 +30,10 @@ namespace gunrunner
                 }
             return a;
         }
-        public virtual void Update(GameTime gameTime, List<floor> floorList)
+        public virtual void Update(GameTime gameTime)
         {
 
-            if (FloorCollisionCheck(floorList)==false)
+            if (FloorCollisionCheck() ==false)
             {
                 this.Fall(gameTime);
             }
@@ -66,7 +66,7 @@ namespace gunrunner
         {
 
         }
-        public character()
+        public Character()
         {
             compoList = new List<Component>();
         }

@@ -9,24 +9,24 @@ using Microsoft.Xna.Framework.Content;
 
 namespace gunrunner
 {
-    class robot: character
+    public class robot: Character
     {
         
-        public void HandleInput(List<floor> floorList)
+        public void HandleInput(List<Floor> floorList)
         {
             if (Keyboard.GetState().IsKeyDown(Keys.A) && Keyboard.GetState().IsKeyDown(Keys.D)) { velocityX = 0; }
             else if (Keyboard.GetState().IsKeyDown(Keys.A)) { velocityX = -1 * maxvelocityX; }
             else if (Keyboard.GetState().IsKeyDown(Keys.D)) { velocityX = maxvelocityX; }
             else { velocityX = 0; }
-            if (FloorCollisionCheck(floorList))
+            if (FloorCollisionCheck())
             {
                 if (Keyboard.GetState().IsKeyDown(Keys.W)) { velocityY = -300; }
             }
         }
-        public override void Update(GameTime gameTime, List<floor> floorList)
+        public override void Update(GameTime gameTime)
         {
-            HandleInput(floorList);
-            base.Update(gameTime, floorList);
+            HandleInput(Game1.world.floorList);
+            base.Update(gameTime);
         }
         public robot (ContentManager contentManager, Vector2 p)
         {

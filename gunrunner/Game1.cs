@@ -10,9 +10,9 @@ namespace gunrunner
     public class Game1 : Game
     {
         GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
-        World world;
-        static TextPrinter textPrinter;
+        public static SpriteBatch spriteBatch;
+        static public World world;
+        static public TextPrinter textPrinter;
         
 
         public Game1()
@@ -77,7 +77,7 @@ namespace gunrunner
         {
             GraphicsDevice.Clear(Color.White);
             spriteBatch.Begin();
-            world.Draw(spriteBatch);
+            world.Draw();
             textPrinter.drawText("AWSD movement, R for reset", new Vector2(50, 50), spriteBatch);
 
             spriteBatch.End();

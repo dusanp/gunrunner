@@ -8,7 +8,7 @@ using System.Text;
 
 namespace gunrunner
 {
-    class TextPrinter
+    public class TextPrinter
     {
         SpriteFont CourierNew;
         public void drawText(string text, Vector2 position, SpriteBatch spriteBatch)

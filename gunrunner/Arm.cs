@@ -9,7 +9,7 @@ using System.Text;
 
 namespace gunrunner
 {
-    class Arm:Component
+    public class Arm:Component
     {
         public void HandleInput()
         {
@@ -20,7 +20,7 @@ namespace gunrunner
             HandleInput();
             base.Update(gameTime);
         }
-        public Arm(ContentManager contentManager, character c):base(contentManager,c)
+        public Arm(ContentManager contentManager, Character c):base(contentManager,c)
         {
             parent = c;
             charskin = contentManager.Load<Texture2D>("rect_black");

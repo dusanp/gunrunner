@@ -6,9 +6,9 @@ using System.Text;
 
 namespace gunrunner
 {
-    class Gun:Component
+    public class Gun:Component
     {
-        public Gun(ContentManager contentManager, character c):base(contentManager,c)
+        public Gun(ContentManager contentManager, Character c):base(contentManager,c)
         {
             parent = c;
         }

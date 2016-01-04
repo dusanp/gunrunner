@@ -13,12 +13,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin NewSpriteFont.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:TextureFormat=Compressed
-/build:NewSpriteFont.spritefont
-
 #begin Courier New.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor

@@ -27,5 +27,5 @@ c:\users\adamin\documents\visual studio 2015\Projects\gunrunner\gunrunner\bin\Wi
 c:\users\adamin\documents\visual studio 2015\Projects\gunrunner\gunrunner\bin\Windows\Debug\Content\MC_torso.png
 c:\users\adamin\documents\visual studio 2015\Projects\gunrunner\gunrunner\bin\Windows\Debug\Content\MC_torsoS.png
 C:\Users\Adamin\Documents\Visual Studio 2015\Projects\gunrunner\gunrunner\bin\Windows\Debug\Content\rect_black.png
-C:\Users\Adamin\Documents\Visual Studio 2015\Projects\gunrunner\gunrunner\bin\Windows\Debug\Content\NewSpriteFont.xnb
 C:\Users\Adamin\Documents\Visual Studio 2015\Projects\gunrunner\gunrunner\bin\Windows\Debug\Content\Courier New.xnb
+C:\Users\Adamin\Documents\Visual Studio 2015\Projects\gunrunner\gunrunner\bin\Windows\Debug\Content\NewSpriteFont.xnb

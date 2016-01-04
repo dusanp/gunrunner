@@ -7,7 +7,7 @@ using System.Text;
 //TODO: prozatimni
 namespace gunrunner
 {
-    class floor
+    public class Floor
     {
         public Vector2 position;
         public Texture2D charskin;
@@ -16,7 +16,7 @@ namespace gunrunner
         {
             spritebatch.Draw(charskin, position, Color.White);
         }
-        public floor(Vector2 p, Texture2D t)
+        public Floor(Vector2 p, Texture2D t)
         {
             position = p;
             charskin = t;
