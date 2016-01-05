@@ -9,12 +9,12 @@ namespace gunrunner
 {
     public class Floor
     {
-        public Vector2 position;
+        public Vector2 position, screenposition;
         public Texture2D charskin;
         Rectangle r;
         public void Draw(SpriteBatch spritebatch)
         {
-            spritebatch.Draw(charskin, position, Color.White);
+            spritebatch.Draw(charskin, Game1.world.MC.screenposition-(Game1.world.MC.position- position), Color.White);
         }
         public Floor(Vector2 p, Texture2D t)
         {

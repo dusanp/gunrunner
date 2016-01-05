@@ -11,7 +11,7 @@ namespace gunrunner
     {
         public int hp, maxhp;
         public float velocityX, maxvelocityX, velocityY;
-        public Vector2 position;
+        public Vector2 position, screenposition;
         public Texture2D charskin;
         List<Component> compoList;
         public void Fall(GameTime gameTime)
@@ -52,7 +52,7 @@ namespace gunrunner
 
         public void Draw(SpriteBatch spritebatch)
         {
-            spritebatch.Draw(charskin, position, Color.White);
+            spritebatch.Draw(charskin, screenposition, Color.White);
             foreach (Component c in compoList)
             {
                 c.Draw(spritebatch);

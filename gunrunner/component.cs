@@ -18,7 +18,7 @@ namespace gunrunner
         public virtual void Update(GameTime gameTime)
         {
 
-            position = parent.position + vectorToChar;
+            position = parent.screenposition + vectorToChar;
 
         }
 

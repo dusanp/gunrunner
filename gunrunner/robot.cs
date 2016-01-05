@@ -34,6 +34,7 @@ namespace gunrunner
             maxhp = 100;
             hp = maxhp;
             position = p;
+            screenposition = new Vector2(300, 150);
             maxvelocityX = 150;
             velocityX = 0;
             

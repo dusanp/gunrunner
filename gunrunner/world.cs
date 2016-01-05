@@ -37,6 +37,7 @@ namespace gunrunner
             floorList.Add(new Floor(new Vector2(400, 400), contentManager.Load<Texture2D>("rect_black")));
             floorList.Add(new Floor(new Vector2(700, 450), contentManager.Load<Texture2D>("rect_black")));
             floorList.Add(new Floor(new Vector2(400, 200), contentManager.Load<Texture2D>("rect_black")));
+            floorList.Add(new Floor(new Vector2(-200, 400), contentManager.Load<Texture2D>("rect_black")));
         }
         public List<Floor> returnFloors()
         {
