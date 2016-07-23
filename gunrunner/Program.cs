@@ -1,6 +1,7 @@
-﻿using System;
+﻿using gunrunner.try2;
+using System;
 
-namespace gunrunner
+namespace GunRunner_v2
 {
 #if WINDOWS || LINUX
     /// <summary>
@@ -14,7 +15,7 @@ namespace gunrunner
         [STAThread]
         static void Main()
         {
-            using (var game = new Game1())
+            using (var game = new GameMaster())
                 game.Run();
         }
     }

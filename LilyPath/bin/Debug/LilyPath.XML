@@ -1,0 +1,2128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LilyPath</name>
+    </assembly>
+    <members>
+        <member name="T:LilyPath.Brush">
+            <summary>
+            Objects used to fill the interiors of shapes and paths.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Brush.Black">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Blue">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Brown">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Cyan">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.DarkBlue">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.DarkCyan">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.DarkGray">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.DarkGoldenrod">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.DarkGreen">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.DarkMagenta">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.DarkOrange">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.DarkRed">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Goldenrod">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Gray">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Green">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.LightBlue">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.LightCyan">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.LightGray">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.LightGreen">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.LightPink">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.LightYellow">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Lime">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Magenta">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Orange">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Pink">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Purple">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Red">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Teal">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.White">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Brush.Yellow">
+            <summary>A system-defined <see cref="T:LilyPath.Brush"/> object.</summary>
+        </member>
+        <member name="M:LilyPath.Brush.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:LilyPath.Brush"/> class.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Brush.#ctor(System.Single)">
+            <summary>
+            Initializes a new instance of a <see cref="T:LilyPath.Brush"/> class with a given alpha value.
+            </summary>
+            <param name="alpha">Alpha value of the brush.</param>
+        </member>
+        <member name="P:LilyPath.Brush.Alpha">
+            <summary>
+            The alpha value of the brush.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Brush.Color">
+            <summary>
+            The color of the brush.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Brush.Texture">
+            <summary>
+            The texture resource of the brush.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Brush.Transform">
+            <summary>
+            Gets or sets the transformation to apply to brush.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Brush.Dispose">
+            <summary>
+            Releases all resources used by the <see cref="T:LilyPath.Brush"/> object.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Brush.Finalize">
+            <summary>
+            Attempts to dispose unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Brush.DisposeManaged">
+            <summary>
+            Releases the managed resources used by the <see cref="T:LilyPath.Brush"/>.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Brush.DisposeUnmanaged">
+            <summary>
+            Releases the unmanaged resources used by the <see cref="T:LilyPath.Brush"/>.
+            </summary>
+        </member>
+        <member name="T:LilyPath.Brushes.CheckerBrush">
+            <summary>
+            A <see cref="T:LilyPath.Brush"/> that represents a two-color checkered texture.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Brushes.CheckerBrush.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Int32)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Brushes.CheckerBrush"/> with the given <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsDevice"/>, colors, and square cell size.
+            </summary>
+            <param name="device">The <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsDevice"/> that should be used to create a texture.</param>
+            <param name="color1">The first checker color.</param>
+            <param name="color2">The second checker color.</param>
+            <param name="width">The size of the width and height of a single colored square.</param>
+        </member>
+        <member name="M:LilyPath.Brushes.CheckerBrush.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Int32,System.Single)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Brushes.CheckerBrush"/> with the given <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsDevice"/>, colors, square cell size, and opacity.
+            </summary>
+            <param name="device">The <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsDevice"/> that should be used to create a texture.</param>
+            <param name="color1">The first checker color.</param>
+            <param name="color2">The second checker color.</param>
+            <param name="width">The size of the width and height of a single colored square.</param>
+            <param name="opacity">The opacity to render the texture with.</param>
+        </member>
+        <member name="M:LilyPath.Brushes.CheckerBrush.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Int32,System.Int32)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Brushes.CheckerBrush"/> with the given <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsDevice"/>, colors, and cell dimensions.
+            </summary>
+            <param name="device">The <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsDevice"/> that should be used to create a texture.</param>
+            <param name="color1">The first checker color.</param>
+            <param name="color2">The second checker color.</param>
+            <param name="width">The width of a single colored cell.</param>
+            <param name="height">The height of a single colored cell.</param>
+        </member>
+        <member name="M:LilyPath.Brushes.CheckerBrush.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Brushes.CheckerBrush"/> with the given <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsDevice"/>, colors, cell dimensions, and opacity.
+            </summary>
+            <param name="device">The <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsDevice"/> that should be used to create a texture.</param>
+            <param name="color1">The first checker color.</param>
+            <param name="color2">The second checker color.</param>
+            <param name="width">The width of a single colored cell.</param>
+            <param name="height">The height of a single colored cell.</param>
+            <param name="opacity">The opacity to render the texture with.</param>
+        </member>
+        <member name="M:LilyPath.Brushes.CheckerBrush.DisposeManaged">
+            <InheritDoc />
+        </member>
+        <member name="T:LilyPath.DrawBatch">
+            <summary>
+            Enables a group of figures to be drawn using the same settings.
+            </summary>
+            <remarks><para>Figures can be made up of primitive lines or paths stroked
+            or filled into more complex polygon geometry.</para>
+            <para>When drawing paths with a thick pen and very short segments, such as closed
+            arcs, you may encounter overdraw that is visible with semitransparent pens.  You can 
+            avoid this overdraw by using an inset or outset <see cref="T:LilyPath.PenAlignment"/> on your pen,
+            depending on the winding order of the path being stroked.</para></remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">
+            <summary>
+            Enables a group of figures to be drawn using the same settings.
+            </summary>
+            <param name="device"></param>
+        </member>
+        <member name="M:LilyPath.DrawBatch.Dispose">
+            <summary>
+            Releases all resources used by the <see cref="T:LilyPath.DrawBatch"/> object.
+            </summary>
+        </member>
+        <member name="P:LilyPath.DrawBatch.IsDisposed">
+            <summary>
+            Gets whether the <see cref="T:LilyPath.DrawBatch"/> has been disposed or not.
+            </summary>
+        </member>
+        <member name="P:LilyPath.DrawBatch.GraphicsDevice">
+            <summary>
+            The <see cref="P:LilyPath.DrawBatch.GraphicsDevice"/> associated with this batch.
+            </summary>
+        </member>
+        <member name="M:LilyPath.DrawBatch.Begin">
+            <summary>
+            Begins a draw batch operation using deferred sort and default state objects.
+            </summary>
+        </member>
+        <member name="M:LilyPath.DrawBatch.Begin(LilyPath.DrawSortMode)">
+            <summary>
+            Begins a draw batch operation using the specified sort and default state objects.
+            </summary>
+            <param name="sortMode">The drawing order.</param>
+        </member>
+        <member name="M:LilyPath.DrawBatch.Begin(LilyPath.DrawSortMode,Microsoft.Xna.Framework.Graphics.BlendState)">
+            <summary>
+            Begins a draw batch operation using the specified sort and given state objects.
+            </summary>
+            <param name="sortMode">The drawing order.</param>
+            <param name="blendState">Blending options.</param>
+        </member>
+        <member name="M:LilyPath.DrawBatch.Begin(LilyPath.DrawSortMode,Microsoft.Xna.Framework.Graphics.BlendState,Microsoft.Xna.Framework.Graphics.SamplerState,Microsoft.Xna.Framework.Graphics.DepthStencilState,Microsoft.Xna.Framework.Graphics.RasterizerState)">
+            <summary>
+            Begins a draw batch operation using the specified sort and given state objects.
+            </summary>
+            <param name="sortMode">The drawing order.</param>
+            <param name="blendState">Blending options.</param>
+            <param name="samplerState">Texture sampling options.</param>
+            <param name="depthStencilState">Depth and stencil options.</param>
+            <param name="rasterizerState">Rasterization options.</param>
+        </member>
+        <member name="M:LilyPath.DrawBatch.Begin(LilyPath.DrawSortMode,Microsoft.Xna.Framework.Graphics.BlendState,Microsoft.Xna.Framework.Graphics.SamplerState,Microsoft.Xna.Framework.Graphics.DepthStencilState,Microsoft.Xna.Framework.Graphics.RasterizerState,Microsoft.Xna.Framework.Graphics.Effect)">
+            <summary>
+            Begins a draw batch operation using the specified sort and given state objects.
+            </summary>
+            <param name="sortMode">The drawing order.</param>
+            <param name="blendState">Blending options.</param>
+            <param name="samplerState">Texture sampling options.</param>
+            <param name="depthStencilState">Depth and stencil options.</param>
+            <param name="rasterizerState">Rasterization options.</param>
+            <param name="effect">Effect state options.</param>
+        </member>
+        <member name="M:LilyPath.DrawBatch.Begin(LilyPath.DrawSortMode,Microsoft.Xna.Framework.Graphics.BlendState,Microsoft.Xna.Framework.Graphics.SamplerState,Microsoft.Xna.Framework.Graphics.DepthStencilState,Microsoft.Xna.Framework.Graphics.RasterizerState,Microsoft.Xna.Framework.Graphics.Effect,Microsoft.Xna.Framework.Matrix)">
+            <summary>
+            Begins a draw batch operation using the specified sort, given state objects, and transformation matrix.
+            </summary>
+            <param name="sortMode">The drawing order.</param>
+            <param name="blendState">Blending options.</param>
+            <param name="samplerState">Texture sampling options.</param>
+            <param name="depthStencilState">Depth and stencil options.</param>
+            <param name="rasterizerState">Rasterization options.</param>
+            <param name="effect">Effect state options.</param>
+            <param name="transform">Transformation matrix for scale, rotate, translate options.</param>
+        </member>
+        <member name="M:LilyPath.DrawBatch.End">
+            <summary>
+            Flushes the draw batch.
+            </summary>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawRectangle(LilyPath.Pen,Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Computes and adds a rectangle path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="rect">The rectangle to be rendered.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawRectangle(LilyPath.Pen,Microsoft.Xna.Framework.Rectangle,System.Single)">
+            <summary>
+            Computes and adds a rectangle path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="rect">The rectangle to be rendered.</param>
+            <param name="angle">The angle to rotate the rectangle by around its center in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawRectangle(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single)">
+            <summary>
+            Computes and adds a rectangle path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="location">The top-left corner of the rectangle.</param>
+            <param name="width">The width of the rectangle.</param>
+            <param name="height">The height of the rectangle.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawRectangle(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single)">
+            <summary>
+            Computes and adds a rectangle path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="location">The top-left corner of the rectangle.</param>
+            <param name="width">The width of the rectangle.</param>
+            <param name="height">The height of the rectangle.</param>
+            <param name="angle">The angle to rotate the rectangle by around its center in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawQuad(LilyPath.Pen,Microsoft.Xna.Framework.Vector2[],System.Int32)">
+            <summary>
+            Computes and adds a quadrilateral path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="points">An array containing the coordinates of the quad.</param>
+            <param name="offset">The offset into the points array.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawQuad</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawQuad(LilyPath.Pen,Microsoft.Xna.Framework.Vector2[],System.Int32,System.Single)">
+            <summary>
+            Computes and adds a quadrilateral path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="points">An array containing the coordinates of the quad.</param>
+            <param name="offset">The offset into the points array.</param>
+            <param name="angle">The angle to rotate the quad by around its weighted center in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawQuad</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveRectangle(LilyPath.Pen,Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Adds a primitive rectangle path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying a color to render the path with.</param>
+            <param name="rect">The rectangle to be rendered.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveRectangle(LilyPath.Pen,Microsoft.Xna.Framework.Rectangle,System.Single)">
+            <summary>
+            Adds a primitive rectangle path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying a color to render the path with.</param>
+            <param name="rect">The rectangle to be rendered.</param>
+            <param name="angle">The angle to rotate the rectangle by around its center in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveRectangle(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single)">
+            <summary>
+            Adds a primitive rectangle path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="location">The top-left corner of the rectangle.</param>
+            <param name="width">The width of the rectangle.</param>
+            <param name="height">The height of the rectangle.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveRectangle(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single)">
+            <summary>
+            Adds a primitive rectangle path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="location">The top-left corner of the rectangle.</param>
+            <param name="width">The width of the rectangle.</param>
+            <param name="height">The height of the rectangle.</param>
+            <param name="angle">The angle to rotate the rectangle by around its center in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveQuad(LilyPath.Pen,Microsoft.Xna.Framework.Vector2[],System.Int32)">
+            <summary>
+            Adds a primitive quadrilateral to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying a color to render the path with.</param>
+            <param name="points">An array containing the coordinates of the quad.</param>
+            <param name="offset">The offset into the points array.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveQuad</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveQuad(LilyPath.Pen,Microsoft.Xna.Framework.Vector2[],System.Int32,System.Single)">
+            <summary>
+            Adds a primitive quadrilateral to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying a color to render the path with.</param>
+            <param name="points">An array containing the coordinates of the quad.</param>
+            <param name="offset">The offset into the points array.</param>
+            <param name="angle">The angle to rotate the quad by around its weighted center in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveQuad</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPoint(LilyPath.Pen,Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Computes and adds a point path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="point">The point to be rendered.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPoint</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawLine(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Computes and adds a line segment path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="p0">The first point of the line segment.</param>
+            <param name="p1">The second point of the line segment.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawLine</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveLine(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Adds a primitive line segment path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying a color to render the path with.</param>
+            <param name="p0">The first point of the line segment.</param>
+            <param name="p1">The second point of the line segment.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveLine</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitivePath(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2})">
+            <summary>
+            Adds a primitive multisegment path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying a color to render the path with.</param>
+            <param name="points">The list of points that make up the path to be rendered.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitivePath</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitivePath(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.PathType)">
+            <summary>
+            Adds a primitive multisegment path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying a color to render the path with.</param>
+            <param name="points">The list of points that make up the path to be rendered.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitivePath</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitivePath(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Int32,System.Int32)">
+            <summary>
+            Adds a primitive multisegment path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying a color to render the path with.</param>
+            <param name="points">The list of points that make up the path to be rendered.</param>
+            <param name="offset">The offset into the <paramref name="points"/> list to begin rendering.</param>
+            <param name="count">The number of points that should be rendered, starting from <paramref name="offset"/>.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitivePath</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitivePath(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Int32,System.Int32,LilyPath.PathType)">
+            <summary>
+            Adds a primitive multisegment path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying a color to render the path with.</param>
+            <param name="points">The list of points that make up the path to be rendered.</param>
+            <param name="offset">The offset into the <paramref name="points"/> list to begin rendering.</param>
+            <param name="count">The number of points that should be rendered, starting from <paramref name="offset"/>.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitivePath</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPath(LilyPath.GraphicsPath)">
+            <summary>
+            Adds a precomputed path to the batch of figures to be rendered.
+            </summary>
+            <param name="path">A path that has already been stroked with a <see cref="T:LilyPath.Pen"/>.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPath</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawCircle(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Computes and adds a circle path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="center">The center coordinate of the circle.</param>
+            <param name="radius">The radius of the circle.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawCircle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the circle is computed as the radius / 1.5.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawCircle(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Int32)">
+            <summary>
+            Computes and adds a circle path to the batch of figures to be rendered using a given number of subdivisions.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="center">The center coordinate of the circle.</param>
+            <param name="radius">The radius of the circle.</param>
+            <param name="subdivisions">The number of subdivisions (sides) to render the circle with.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawCircle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Computes and adds an ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="bound">The bounding rectangle of the ellipse.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(xRadius, yRadius) / 1.5.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Rectangle,System.Single)">
+            <summary>
+            Computes and adds an ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="bound">The bounding rectangle of the ellipse.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(xRadius, yRadius) / 1.5.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Rectangle,System.Single,System.Int32)">
+            <summary>
+            Computes and adds an ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="bound">The bounding rectangle of the ellipse.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <param name="subdivisions">The number of subdivisions (sides) to render the ellipse with.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single)">
+            <summary>
+            Computes and adds an ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="center">The center of the ellipse.</param>
+            <param name="xRadius">The radius of the ellipse along the x-axis.</param>
+            <param name="yRadius">The radius of the ellipse along the y-acis.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(xRadius, yRadius) / 1.5.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single)">
+            <summary>
+            Computes and adds an ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="center">The center of the ellipse.</param>
+            <param name="xRadius">The radius of the ellipse along the x-axis.</param>
+            <param name="yRadius">The radius of the ellipse along the y-acis.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(xRadius, yRadius) / 1.5.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Int32)">
+            <summary>
+            Computes and adds an ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="center">The center of the ellipse.</param>
+            <param name="xRadius">The radius of the ellipse along the x-axis.</param>
+            <param name="yRadius">The radius of the ellipse along the y-acis.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <param name="subdivisions">The number of subdivisions (sides) to render the ellipse with.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveCircle(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Adds a primitive circle path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="center">The center coordinate of the circle.</param>
+            <param name="radius">The radius of the circle.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveCircle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the circle is computed as the radius / 1.5.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveCircle(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Int32)">
+            <summary>
+            Adds a primitive circle path to the batch of figures to be rendered using a given number of subdivisions.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="center">The center coordinate of the circle.</param>
+            <param name="radius">The radius of the circle.</param>
+            <param name="subdivisions">The number of subdivisions (sides) to render the circle with.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveCircle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Adds a primitive ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="bound">The bounding rectangle of the ellipse.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(width, height) / 3.0.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Rectangle,System.Single)">
+            <summary>
+            Adds a primitive ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="bound">The bounding rectangle of the ellipse.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(width, height) / 3.0.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Rectangle,System.Single,System.Int32)">
+            <summary>
+            Adds a primitive ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="bound">The bounding rectangle of the ellipse.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <param name="subdivisions">The number of subdivisions (sides) to render the ellipse with.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single)">
+            <summary>
+            Adds a primitive ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="center">The center of the ellipse.</param>
+            <param name="xRadius">The radius of the ellipse along the x-axis.</param>
+            <param name="yRadius">The radius of the ellipse along the y-acis.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(xRadius, yRadius) / 1.5.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single)">
+            <summary>
+            Adds a primitive ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="center">The center of the ellipse.</param>
+            <param name="xRadius">The radius of the ellipse along the x-axis.</param>
+            <param name="yRadius">The radius of the ellipse along the y-acis.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(xRadius, yRadius) / 1.5.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveEllipse(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Int32)">
+            <summary>
+            Adds a primitive ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="center">The center of the ellipse.</param>
+            <param name="xRadius">The radius of the ellipse along the x-axis.</param>
+            <param name="yRadius">The radius of the ellipse along the y-acis.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <param name="subdivisions">The number of subdivisions (sides) to render the ellipse with.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single)">
+            <summary>
+            Computes and adds an arc path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="center">The center coordinate of the the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(radius / 1.5) * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Int32)">
+            <summary>
+            Computes and adds an arc path to the batch of figures to be rendered using up to the given number of subdivisions.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="center">The center coordinate of the the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <param name="subdivisions">The number of subdivisions in a circle of the same radius.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>subdivisions * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Computes and adds an arc path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="p0">The starting point of the arc.</param>
+            <param name="p1">The ending point of the arc.</param>
+            <param name="height">The furthest point on the arc from the line connecting <paramref name="p0"/> and <paramref name="p1"/>.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(radius / 1.5) * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single,System.Int32)">
+            <summary>
+            Computes and adds an arc path to the batch of figures to be rendered using up to the given number of subdivisions.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="p0">The starting point of the arc.</param>
+            <param name="p1">The ending point of the arc.</param>
+            <param name="height">The furthest point on the arc from the line connecting <paramref name="p0"/> and <paramref name="p1"/>.</param>
+            <param name="subdivisions">The number of subdivisions in a circle of the same arc radius.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(subdivisions) * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single)">
+            <summary>
+            Adds a primitive arc path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="center">The center coordinate of the the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(radius / 1.5) * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Int32)">
+            <summary>
+            Adds a primitive arc path to the batch of figures to be rendered using up to the given number of subdivisions.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="center">The center coordinate of the the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <param name="subdivisions">The number of subdivisions in a circle of the same radius.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(radius / 1.5) * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Adds a primitive arc path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="p0">The starting point of the arc.</param>
+            <param name="p1">The ending point of the arc.</param>
+            <param name="height">The furthest point on the arc from the line connecting <paramref name="p0"/> and <paramref name="p1"/>.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(radius / 1.5) * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single,System.Int32)">
+            <summary>
+            Adds a primitive arc path to the batch of figures to be rendered using up to the given number of subdivisions.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="p0">The starting point of the arc.</param>
+            <param name="p1">The ending point of the arc.</param>
+            <param name="height">The furthest point on the arc from the line connecting <paramref name="p0"/> and <paramref name="p1"/>.</param>
+            <param name="subdivisions">The number of subdivisions in a circle of the same arc radius.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(subdivisions) * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveClosedArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,LilyPath.ArcType)">
+            <summary>
+            Adds a closed primitive arc path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="center">The center coordinate of the the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <param name="arcType">Whether the arc is drawn as a segment or a sector.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveClosedArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(radius / 1.5) * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveClosedArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,LilyPath.ArcType,System.Int32)">
+            <summary>
+            Adds a closed primitive arc path to the batch of figures to be rendered using up to the given number of subdivisions.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="center">The center coordinate of the the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <param name="arcType">Whether the arc is drawn as a segment or a sector.</param>
+            <param name="subdivisions">The number of subdivisions in a circle of the same radius.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveClosedArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(subdivisions * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawClosedArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,LilyPath.ArcType)">
+            <summary>
+            Computes and adds a closed arc path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="center">The center coordinate of the the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <param name="arcType">Whether the arc is drawn as a segment or a sector.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawClosedArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(radius / 1.5) * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawClosedArc(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,LilyPath.ArcType,System.Int32)">
+            <summary>
+            Computes and adds a closed arc path to the batch of figures to be rendered using up to the given number of subdivisions.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="center">The center coordinate of the the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <param name="arcType">Whether the arc is drawn as a segment or a sector.</param>
+            <param name="subdivisions">The number of subdivisions in a circle of the same radius.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawClosedArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>subdivisions * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawBezier(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Computes and adds a quadratic Bezier path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="p0">The start point of the curve.</param>
+            <param name="p1">The first control point.</param>
+            <param name="p2">The end point of the curve.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawBezier</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawBezier(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Computes and adds a cubic Bezier path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="p0">The start point of the curve.</param>
+            <param name="p1">The first control point.</param>
+            <param name="p2">The second control point.</param>
+            <param name="p3">The end point of the curve.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawBezier</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawBeziers(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.BezierType)">
+            <summary>
+            Computes and adds a series of Bezier paths to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="points">A list of Bezier points.</param>
+            <param name="bezierType">The type of Bezier curves to draw.</param>
+            <remarks><para>For quadratic Bezier curves, the number of points defined by the parameters should be a multiple of 2 plus 1
+            for open curves or 2 for closed curves.  For cubic Bezier curves, the number of points defined by the parameters should be 
+            a multiple of 3 plus 1 for open curves or 3 for closed curves.  For each curve drawn after the first, the ending point of 
+            the previous curve is used as the starting point.  For closed curves, the end point of the last curve is the start point
+            of the first curve.</para></remarks>
+            <exception cref="T:System.InvalidOperationException"><c>DrawBeziers</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawBeziers(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.BezierType,LilyPath.PathType)">
+            <summary>
+            Computes and adds a series of Bezier paths to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="points">A list of Bezier points.</param>
+            <param name="bezierType">The type of Bezier curves to draw.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <remarks><para>For quadratic Bezier curves, the number of points defined by the parameters should be a multiple of 2 plus 1
+            for open curves or 2 for closed curves.  For cubic Bezier curves, the number of points defined by the parameters should be 
+            a multiple of 3 plus 1 for open curves or 3 for closed curves.  For each curve drawn after the first, the ending point of 
+            the previous curve is used as the starting point.  For closed curves, the end point of the last curve is the start point
+            of the first curve.</para></remarks>
+            <exception cref="T:System.InvalidOperationException"><c>DrawBeziers</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawBeziers(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Int32,System.Int32,LilyPath.BezierType)">
+            <summary>
+            Computes and adds a series of Bezier paths to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="points">A list of Bezier points.</param>
+            <param name="offset">The index of the first start point in the list.</param>
+            <param name="count">The number of points to use.</param>
+            <param name="bezierType">The type of Bezier curves to draw.</param>
+            <remarks><para>For quadratic Bezier curves, the number of points defined by the parameters should be a multiple of 2 plus 1
+            for open curves or 2 for closed curves.  For cubic Bezier curves, the number of points defined by the parameters should be 
+            a multiple of 3 plus 1 for open curves or 3 for closed curves.  For each curve drawn after the first, the ending point of 
+            the previous curve is used as the starting point.  For closed curves, the end point of the last curve is the start point
+            of the first curve.</para></remarks>
+            <exception cref="T:System.InvalidOperationException"><c>DrawBeziers</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawBeziers(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Int32,System.Int32,LilyPath.BezierType,LilyPath.PathType)">
+            <summary>
+            Computes and adds a series of Bezier paths to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen to render the path with.</param>
+            <param name="points">A list of Bezier points.</param>
+            <param name="offset">The index of the first start point in the list.</param>
+            <param name="count">The number of points to use.</param>
+            <param name="bezierType">The type of Bezier curves to draw.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <remarks><para>For quadratic Bezier curves, the number of points defined by the parameters should be a multiple of 2 plus 1
+            for open curves or 2 for closed curves.  For cubic Bezier curves, the number of points defined by the parameters should be 
+            a multiple of 3 plus 1 for open curves or 3 for closed curves.  For each curve drawn after the first, the ending point of 
+            the previous curve is used as the starting point.  For closed curves, the end point of the last curve is the start point
+            of the first curve.</para></remarks>
+            <exception cref="T:System.InvalidOperationException"><c>DrawBeziers</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveBezier(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Adds a primitive quadratic Bezier path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="p0">The start point of the curve.</param>
+            <param name="p1">The first control point.</param>
+            <param name="p2">The end point of the curve.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveBezier</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveBezier(LilyPath.Pen,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Adds a primitive cubic Bezier path to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="p0">The start point of the curve.</param>
+            <param name="p1">The first control point.</param>
+            <param name="p2">The second control point.</param>
+            <param name="p3">The end point of the curve.</param>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveBezier</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveBeziers(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.BezierType)">
+            <summary>
+            Adds a series of primitive Bezier paths to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="points">A list of Bezier points.</param>
+            <param name="bezierType">The type of Bezier curves to draw.</param>
+            <remarks><para>For quadratic Bezier curves, the number of points defined by the parameters should be a multiple of 2 plus 1
+            for open curves or 2 for closed curves.  For cubic Bezier curves, the number of points defined by the parameters should be 
+            a multiple of 3 plus 1 for open curves or 3 for closed curves.  For each curve drawn after the first, the ending point of 
+            the previous curve is used as the starting point.  For closed curves, the end point of the last curve is the start point
+            of the first curve.</para></remarks>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveBeziers</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveBeziers(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.BezierType,LilyPath.PathType)">
+            <summary>
+            Adds a series of primitive Bezier paths to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="points">A list of Bezier points.</param>
+            <param name="bezierType">The type of Bezier curves to draw.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <remarks><para>For quadratic Bezier curves, the number of points defined by the parameters should be a multiple of 2 plus 1
+            for open curves or 2 for closed curves.  For cubic Bezier curves, the number of points defined by the parameters should be 
+            a multiple of 3 plus 1 for open curves or 3 for closed curves.  For each curve drawn after the first, the ending point of 
+            the previous curve is used as the starting point.  For closed curves, the end point of the last curve is the start point
+            of the first curve.</para></remarks>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveBeziers</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveBeziers(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Int32,System.Int32,LilyPath.BezierType)">
+            <summary>
+            Adds a series of primitive Bezier paths to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="points">A list of Bezier points.</param>
+            <param name="offset">The index of the first start point in the list.</param>
+            <param name="count">The number of points to use.</param>
+            <param name="bezierType">The type of Bezier curves to draw.</param>
+            <remarks><para>For quadratic Bezier curves, the number of points defined by the parameters should be a multiple of 2 plus 1
+            for open curves or 2 for closed curves.  For cubic Bezier curves, the number of points defined by the parameters should be 
+            a multiple of 3 plus 1 for open curves or 3 for closed curves.  For each curve drawn after the first, the ending point of 
+            the previous curve is used as the starting point.  For closed curves, the end point of the last curve is the start point
+            of the first curve.</para></remarks>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveBeziers</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawPrimitiveBeziers(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Int32,System.Int32,LilyPath.BezierType,LilyPath.PathType)">
+            <summary>
+            Adds a series of primitive Bezier paths to the batch of figures to be rendered.
+            </summary>
+            <param name="pen">The pen supplying the color to render the path with.</param>
+            <param name="points">A list of Bezier points.</param>
+            <param name="offset">The index of the first start point in the list.</param>
+            <param name="count">The number of points to use.</param>
+            <param name="bezierType">The type of Bezier curves to draw.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <remarks><para>For quadratic Bezier curves, the number of points defined by the parameters should be a multiple of 2 plus 1
+            for open curves or 2 for closed curves.  For cubic Bezier curves, the number of points defined by the parameters should be 
+            a multiple of 3 plus 1 for open curves or 3 for closed curves.  For each curve drawn after the first, the ending point of 
+            the previous curve is used as the starting point.  For closed curves, the end point of the last curve is the start point
+            of the first curve.</para></remarks>
+            <exception cref="T:System.InvalidOperationException"><c>DrawPrimitiveBeziers</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillCircle(LilyPath.Brush,Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Adds a filled circle to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="center">The center coordinate of the circle.</param>
+            <param name="radius">The radius of the circle.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillCircle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the circle is computed as <c>(radius / 1.5)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillCircle(LilyPath.Brush,Microsoft.Xna.Framework.Vector2,System.Single,System.Int32)">
+            <summary>
+            Adds a filled circle to the batch of figures to be rendered using the given number of subdivisions.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="center">The center coordinate of the circle.</param>
+            <param name="radius">The radius of the circle.</param>
+            <param name="subdivisions">The number of subdivisions to render the circle with.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillCircle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillEllipse(LilyPath.Brush,Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Adds a filled ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="bound">The bounding rectangle of the ellipse.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(width, height) / 3.0.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillEllipse(LilyPath.Brush,Microsoft.Xna.Framework.Rectangle,System.Single)">
+            <summary>
+            Adds a filled ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="bound">The bounding rectangle of the ellipse.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(width, height) / 3.0.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillEllipse(LilyPath.Brush,Microsoft.Xna.Framework.Rectangle,System.Single,System.Int32)">
+            <summary>
+            Adds a filled ellipse path to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="bound">The bounding rectangle of the ellipse.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <param name="subdivisions">The number of subdivisions (sides) to render the ellipse with.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillEllipse(LilyPath.Brush,Microsoft.Xna.Framework.Vector2,System.Single,System.Single)">
+            <summary>
+            Adds a filled ellipse to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="center">The center coordinate of the ellipse.</param>
+            <param name="xRadius">The radius of the ellipse along the x-axis.</param>
+            <param name="yRadius">The radius of the llipse along the y-axis.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(xRadius, yRadius) / 1.5.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillEllipse(LilyPath.Brush,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single)">
+            <summary>
+            Adds a filled ellipse to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="center">The center coordinate of the ellipse.</param>
+            <param name="xRadius">The radius of the ellipse along the x-axis.</param>
+            <param name="yRadius">The radius of the llipse along the y-axis.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the ellipse is computed as max(xRadius, yRadius) / 1.5.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillEllipse(LilyPath.Brush,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Int32)">
+            <summary>
+            Adds a filled ellipse to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="center">The center coordinate of the ellipse.</param>
+            <param name="xRadius">The radius of the ellipse along the x-axis.</param>
+            <param name="yRadius">The radius of the llipse along the y-axis.</param>
+            <param name="angle">The angle to rotate the ellipse by in radians.  Positive values rotate clockwise.</param>
+            <param name="subdivisions">The number of subdivisions to render the circle with.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillEllipse</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillArc(LilyPath.Brush,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,LilyPath.ArcType)">
+            <summary>
+            Adds a filled arc to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="center">The center coordinate of the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <param name="arcType">Whether the arc is drawn as a segment or a sector.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>(radius / 1.5) * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillArc(LilyPath.Brush,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,LilyPath.ArcType,System.Int32)">
+            <summary>
+            Adds a filled arc to the batch of figures to be rendered using up to the given number of subdivisions.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="center">The center coordinate of the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <param name="arcType">Whether the arc is drawn as a segment or a sector.</param>
+            <param name="subdivisions">The number of subdivisions in the circle with the same radius as the arc.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillArc</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>The number of subdivisions in the arc is computed as <c>subdivisions * (arcAngle / 2PI)</c>.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillRectangle(LilyPath.Brush,Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Adds a filled rectangle to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="rect">The rectangle to be rendered.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillRectangle(LilyPath.Brush,Microsoft.Xna.Framework.Rectangle,System.Single)">
+            <summary>
+            Adds a filled rectangle to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="rect">The rectangle to be rendered.</param>
+            <param name="angle">The angle to rotate the rectangle by around its center in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillRectangle(LilyPath.Brush,Microsoft.Xna.Framework.Vector2,System.Single,System.Single)">
+            <summary>
+            Adds a filled rectangle to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="location">The top-left corner of the rectangle.</param>
+            <param name="width">The width of the rectangle.</param>
+            <param name="height">The height of the rectangle.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillRectangle(LilyPath.Brush,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single)">
+            <summary>
+            Adds a filled rectangle to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="location">The top-left corner of the rectangle.</param>
+            <param name="width">The width of the rectangle.</param>
+            <param name="height">The height of the rectangle.</param>
+            <param name="angle">The angle to rotate the rectangle by around its center in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillRectangle</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillQuad(LilyPath.Brush,Microsoft.Xna.Framework.Vector2[],System.Int32)">
+            <summary>
+            Adds a filled quadrilateral to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="points">An array containing the coordinates of the quad.</param>
+            <param name="offset">The offset into the points array.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillQuad</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillQuad(LilyPath.Brush,Microsoft.Xna.Framework.Vector2[],System.Int32,System.Single)">
+            <summary>
+            Adds a filled quadrilateral to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="points">An array containing the coordinates of the quad.</param>
+            <param name="offset">The offset into the points array.</param>
+            <param name="angle">The angle to rotate the quad around its weighted center in radians.  Positive values rotate clockwise.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillQuad</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillPath(LilyPath.Brush,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2})">
+            <summary>
+            Adds a filled region enclosed by the given multisegment path to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="points">The list of points that make up the multisegment path enclosing the region.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillPath</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>Paths should be created with a clockwise winding order, or the resulting geometry will be backface-culled.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.FillPath(LilyPath.Brush,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Int32,System.Int32)">
+            <summary>
+            Adds a filled region enclosed by the given multisegment path to the batch of figures to be rendered.
+            </summary>
+            <param name="brush">The brush to render the shape with.</param>
+            <param name="points">The list of points that make up the multisegment path enclosing the region.</param>
+            <param name="offset">The offset into the <paramref name="points"/> list to begin rendering.</param>
+            <param name="count">The number of points that should be rendered, starting from <paramref name="offset"/>.</param>
+            <exception cref="T:System.InvalidOperationException"><c>FillPath</c> was called, but <see cref="M:LilyPath.DrawBatch.Begin"/> has not yet been called.</exception>
+            <remarks>Paths should be created with a clockwise winding order, or the resulting geometry will be backface-culled.</remarks>
+        </member>
+        <member name="M:LilyPath.DrawBatch.DrawCache(LilyPath.DrawCache)">
+            <summary>
+            Immediatley renders a <see cref="M:LilyPath.DrawBatch.DrawCache(LilyPath.DrawCache)"/> object.
+            </summary>
+            <param name="cache">A <see cref="M:LilyPath.DrawBatch.DrawCache(LilyPath.DrawCache)"/> object.</param>
+            <remarks>Any previous unflushed geometry will be rendered first.</remarks>
+        </member>
+        <member name="T:LilyPath.DrawCache">
+            <summary>
+            An opaque object that represents pre-compiled low-level geometry.
+            </summary>
+            <remarks><see cref="T:LilyPath.DrawCache"/> objects can be rendered by a <see cref="T:LilyPath.DrawBatch"/>.</remarks>
+        </member>
+        <member name="P:LilyPath.DrawCache.IsValid">
+            <summary>
+            Gets whether the <see cref="T:LilyPath.DrawCache"/> is still valid.
+            </summary>
+        </member>
+        <member name="T:LilyPath.ArcType">
+            <summary>
+            The type of arc in closed drawing or fill operations.
+            </summary>
+        </member>
+        <member name="F:LilyPath.ArcType.Segment">
+            <summary>
+            Causes the endpoints of the arc to be connected directly.
+            </summary>
+        </member>
+        <member name="F:LilyPath.ArcType.Sector">
+            <summary>
+            Causes the endpoints of the arc to be connected to the arc center, as in a pie wedge.
+            </summary>
+        </member>
+        <member name="T:LilyPath.BezierType">
+            <summary>
+            The type of Bezier curve specified in draw operations.
+            </summary>
+        </member>
+        <member name="F:LilyPath.BezierType.Quadratic">
+            <summary>
+            Specifies a quadratic Bezier curve (1 control point).
+            </summary>
+        </member>
+        <member name="F:LilyPath.BezierType.Cubic">
+            <summary>
+            Specifies a cubic Bezier curve (2 control points).
+            </summary>
+        </member>
+        <member name="T:LilyPath.LineCap">
+            <summary>
+            The style of termination used at the endpoints of stroked paths.
+            </summary>
+        </member>
+        <member name="F:LilyPath.LineCap.Flat">
+            <summary>
+            The stroked path is cut off at the immediate edge of the path's endpoint.
+            </summary>
+        </member>
+        <member name="F:LilyPath.LineCap.Square">
+            <summary>
+            The stroked path runs half the pen's width past the edge of the path's endpoint.
+            </summary>
+        </member>
+        <member name="F:LilyPath.LineCap.Triangle">
+            <summary>
+            The stroked path forms a triangular point half the pen's width past the edge of the path's endpoint.
+            </summary>
+        </member>
+        <member name="F:LilyPath.LineCap.InvTriangle">
+            <summary>
+            The stroked path forms an inverse triangle half the pen's width past the edge of the path's endpoint.
+            </summary>
+        </member>
+        <member name="F:LilyPath.LineCap.Arrow">
+            <summary>
+            The stroked path forms an arrow at the path's endpoint.
+            </summary>
+        </member>
+        <member name="T:LilyPath.LineJoin">
+            <summary>
+            Specifies how to join consecutive line segments in a path.
+            </summary>
+        </member>
+        <member name="F:LilyPath.LineJoin.Miter">
+            <summary>
+            Specifies a mitered join.
+            </summary>
+        </member>
+        <member name="F:LilyPath.LineJoin.Bevel">
+            <summary>
+            Specifies a beveled join.
+            </summary>
+        </member>
+        <member name="T:LilyPath.PathType">
+            <summary>
+            Whether a path is open or closed in draw operations.
+            </summary>
+        </member>
+        <member name="F:LilyPath.PathType.Open">
+            <summary>
+            The endpoints of the path should not be connected.
+            </summary>
+        </member>
+        <member name="F:LilyPath.PathType.Closed">
+            <summary>
+            The endpoints of the path should be connected.
+            </summary>
+        </member>
+        <member name="T:LilyPath.PenAlignment">
+            <summary>
+            The alignment of a path stroked by a <see cref="T:LilyPath.Pen"/> relative to the ideal path.
+            </summary>
+        </member>
+        <member name="F:LilyPath.PenAlignment.Center">
+            <summary>
+            The stroked path should be centered directly over the ideal path.
+            </summary>
+        </member>
+        <member name="F:LilyPath.PenAlignment.Inset">
+            <summary>
+            The stroked path should run along the inside edge of the ideal path.
+            </summary>
+        </member>
+        <member name="F:LilyPath.PenAlignment.Outset">
+            <summary>
+            The stroked path should run along the outside edge of the ideal path.
+            </summary>
+        </member>
+        <member name="T:LilyPath.StrokeType">
+            <summary>
+            Specifies what components of a path should be stroked.
+            </summary>
+        </member>
+        <member name="F:LilyPath.StrokeType.Fill">
+            <summary>
+            Only stroke the path itself.  Should not be confused with filling a shape enclosed by a path.
+            </summary>
+        </member>
+        <member name="F:LilyPath.StrokeType.Outline">
+            <summary>
+            Only stroke the outline of the path.
+            </summary>
+        </member>
+        <member name="F:LilyPath.StrokeType.Both">
+            <summary>
+            Stroke both the path and its outline.
+            </summary>
+        </member>
+        <member name="T:LilyPath.DrawSortMode">
+            <summary>
+            Defines figure sort-rendering options.
+            </summary>
+        </member>
+        <member name="F:LilyPath.DrawSortMode.Deferred">
+            <summary>
+            Figures are not drawn until <see cref="M:LilyPath.DrawBatch.End"/> is called.  <see cref="M:LilyPath.DrawBatch.End"/> will apply graphics
+            device settings and draw all figures in one batch in the same order drawing calls were received.  <see cref="T:LilyPath.DrawBatch"/>
+            defaults to <c>Deferred</c> mode.
+            </summary>
+        </member>
+        <member name="F:LilyPath.DrawSortMode.Immediate">
+            <summary>
+            <see cref="M:LilyPath.DrawBatch.Begin"/> will apply new graphics device settings, and figures will be drawn within each drawing call.
+            </summary>
+        </member>
+        <member name="T:LilyPath.IGraphicsPath">
+            <summary>
+            Represents computed path geometry.
+            </summary>
+        </member>
+        <member name="P:LilyPath.IGraphicsPath.VertexCount">
+            <summary>
+            The number of vertices in the computed geometry.
+            </summary>
+        </member>
+        <member name="P:LilyPath.IGraphicsPath.IndexCount">
+            <summary>
+            The number of vertex indexes in the computed geometry.
+            </summary>
+        </member>
+        <member name="P:LilyPath.IGraphicsPath.VertexPositionData">
+            <summary>
+            The raw vertex data of the computed geometry.
+            </summary>
+        </member>
+        <member name="P:LilyPath.IGraphicsPath.VertexTextureData">
+            <summary>
+            The raw texture data of the computed geometry.
+            </summary>
+        </member>
+        <member name="P:LilyPath.IGraphicsPath.VertexColorData">
+            <summary>
+            The raw color data of the computed geometry.
+            </summary>
+        </member>
+        <member name="P:LilyPath.IGraphicsPath.IndexData">
+            <summary>
+            The raw index data of the computed geometry.
+            </summary>
+        </member>
+        <member name="P:LilyPath.IGraphicsPath.Pen">
+            <summary>
+            The <see cref="P:LilyPath.IGraphicsPath.Pen"/> used to compute the geometry.
+            </summary>
+        </member>
+        <member name="T:LilyPath.GraphicsPath">
+            <summary>
+            Represents a stroked path.
+            </summary>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen)">
+            <summary>
+            Create an empty path with a given <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen"></param>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2})">
+            <summary>
+            Compute a stroked open path given a set of points and a <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="points">The points making up the ideal path.</param>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.PathType)">
+            <summary>
+            Compute a stroked open or closed path given a set of points and a <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="points">The points making up the ideal path.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.PathType,System.Int32,System.Int32)">
+            <summary>
+            Compute a stroked open or closed path given a set of points and a <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="points">The points making up the ideal path.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <param name="offset">The offset into the list of points that starts the path.</param>
+            <param name="count">The number of points in the path.</param>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Collections.Generic.IList{System.Single},LilyPath.PathType,System.Int32,System.Int32)">
+            <summary>
+            Compute a stroked open or closed path given a set of points and a <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="points">The points making up the ideal path.</param>
+            <param name="lengths">The lengths of each point from the path start.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <param name="offset">The offset into the list of points that starts the path.</param>
+            <param name="count">The number of points in the path.</param>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen,LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2})">
+            <summary>
+            Compute a stroked open or closed path given a set of points and a path and outline <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="outlinePen">The pen to stroke the outline of the path with.</param>
+            <param name="points">The points making up the ideal path.</param>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen,LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.StrokeType)">
+            <summary>
+            Compute a stroked open or closed path given a set of points and a path and outline <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="outlinePen">The pen to stroke the outline of the path with.</param>
+            <param name="points">The points making up the ideal path.</param>
+            <param name="strokeType">Whether to stroke just the path, the outline, or both.</param>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen,LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.PathType)">
+            <summary>
+            Compute a stroked open or closed path given a set of points and a path and outline <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="outlinePen">The pen to stroke the outline of the path with.</param>
+            <param name="points">The points making up the ideal path.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen,LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.PathType,LilyPath.StrokeType)">
+            <summary>
+            Compute a stroked open or closed path given a set of points and a path and outline <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="outlinePen">The pen to stroke the outline of the path with.</param>
+            <param name="points">The points making up the ideal path.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <param name="strokeType">Whether to stroke just the path, the outline, or both.</param>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen,LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.PathType,System.Int32,System.Int32)">
+            <summary>
+            Compute a stroked open or closed path given a set of points and a path and outline <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="outlinePen">The pen to stroke the outline of the path with.</param>
+            <param name="points">The points making up the ideal path.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <param name="offset">The offset into the list of points that starts the path.</param>
+            <param name="count">The number of points in the path.</param>
+        </member>
+        <member name="M:LilyPath.GraphicsPath.#ctor(LilyPath.Pen,LilyPath.Pen,System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.PathType,System.Int32,System.Int32,LilyPath.StrokeType)">
+            <summary>
+            Compute a stroked open or closed path given a set of points and a path and outline <see cref="P:LilyPath.GraphicsPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="outlinePen">The pen to stroke the outline of the path with.</param>
+            <param name="points">The points making up the ideal path.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <param name="offset">The offset into the list of points that starts the path.</param>
+            <param name="count">The number of points in the path.</param>
+            <param name="strokeType">Whether to stroke just the path, the outline, or both.</param>
+        </member>
+        <member name="P:LilyPath.GraphicsPath.OutlinePaths">
+            <summary>
+            Gets the outline paths that have been generated for this path.
+            </summary>
+        </member>
+        <member name="P:LilyPath.GraphicsPath.IndexCount">
+            <inherit />
+        </member>
+        <member name="P:LilyPath.GraphicsPath.VertexCount">
+            <inherit />
+        </member>
+        <member name="P:LilyPath.GraphicsPath.VertexPositionData">
+            <inherit />
+        </member>
+        <member name="P:LilyPath.GraphicsPath.VertexTextureData">
+            <inherit />
+        </member>
+        <member name="P:LilyPath.GraphicsPath.VertexColorData">
+            <inherit />
+        </member>
+        <member name="P:LilyPath.GraphicsPath.IndexData">
+            <inherit />
+        </member>
+        <member name="P:LilyPath.GraphicsPath.Pen">
+            <inherit />
+        </member>
+        <member name="T:LilyPath.PathBuilder">
+            <summary>
+            An object for building up an ideal path from pieces.
+            </summary>
+        </member>
+        <member name="M:LilyPath.PathBuilder.#ctor">
+            <summary>
+            Creates a new <see cref="T:LilyPath.PathBuilder"/> object.
+            </summary>
+        </member>
+        <member name="M:LilyPath.PathBuilder.#ctor(System.Int32)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.PathBuilder"/> object with a given initial buffer size.
+            </summary>
+            <param name="initialBufferSize">The initial size of the internal vertex buffer.</param>
+        </member>
+        <member name="P:LilyPath.PathBuilder.Buffer">
+            <summary>
+            Gets the raw vertex buffer from the <see cref="T:LilyPath.PathBuilder"/>.
+            </summary>
+            <seealso cref="P:LilyPath.PathBuilder.LengthBuffer"/>
+        </member>
+        <member name="P:LilyPath.PathBuilder.LengthBuffer">
+            <summary>
+            Gets the buffer containing the length of each vertex in the vertex buffer from the start of the path.
+            </summary>
+            <remarks><para>The length for the first vertex is always 0.</para></remarks>
+            <seealso cref="P:LilyPath.PathBuilder.Buffer"/>
+            <seealso cref="P:LilyPath.PathBuilder.CalculateLengths"/>
+        </member>
+        <member name="P:LilyPath.PathBuilder.Count">
+            <summary>
+            Gets the number of vertices currently in the path and buffer.
+            </summary>
+        </member>
+        <member name="P:LilyPath.PathBuilder.CalculateLengths">
+            <summary>
+            Gets or sets whether lengths are calculated for line segments.
+            </summary>
+            <remarks><para>This property will be checked at the time a path is stroked to determine whether it can use length information or not.</para>
+            <para>If this property is set to false during some or all of the path building operations, lengths for those sections may appear as any value.</para></remarks>
+            <seealso cref="P:LilyPath.PathBuilder.LengthBuffer"/>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddPoint(Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Appends a point to the end of the path.
+            </summary>
+            <param name="point">A point.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddPath(System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2})">
+            <summary>
+            Appends a list of points to the end of the path.
+            </summary>
+            <param name="points">A list of points.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddPath(LilyPath.PathBuilder)">
+            <summary>
+            Appends all of the points within another <see cref="T:LilyPath.PathBuilder"/> object to the end of the path.
+            </summary>
+            <param name="path">An existing path.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddLine(System.Single,System.Single)">
+            <summary>
+            Appends a point to the end of the path offset from the path's current endpoint by the given length and angle.
+            </summary>
+            <param name="length">The length of the line being added.</param>
+            <param name="angle">The angle of the line in radians.  Positive values are clockwise.</param>
+            <exception cref="T:System.InvalidOperationException">The path has no existing points.</exception>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddArcByPoint(Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Appends an arc between the current endpoint and given point to the end of the path.
+            </summary>
+            <param name="point">The endpoint of the arc.</param>
+            <param name="height">The furthest point on the arc from the line connecting the path's current endpoint and <paramref name="point"/>.</param>
+            <exception cref="T:System.InvalidOperationException">The path has no existing points.</exception>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddArcByPoint(Microsoft.Xna.Framework.Vector2,System.Single,System.Int32)">
+            <summary>
+            Appends an arc between the current endpoint and given point to the end of the path.
+            </summary>
+            <param name="point">The endpoint of the arc.</param>
+            <param name="height">The furthest point on the arc from the line connecting the path's current endpoint and <paramref name="point"/>.</param>
+            <param name="subdivisions">The number of subdivisions in a circle of the same arc radius.</param>
+            <exception cref="T:System.InvalidOperationException">The path has no existing points.</exception>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddArcByAngle(Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Appends an arc between the current endpoint and a point defined by a center and arc angle.
+            </summary>
+            <param name="center">The center of a circle containing the path's current endpoint and destination point.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <exception cref="T:System.InvalidOperationException">The path has no existing points.</exception>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddArcByAngle(Microsoft.Xna.Framework.Vector2,System.Single,System.Int32)">
+            <summary>
+            Appends an arc between the current endpoint and a point defined by a center and arc angle.
+            </summary>
+            <param name="center">The center of a circle containing the path's current endpoint and destination point.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <param name="subdivisions">The number of subdivisions in a circle of the same arc radius.</param>
+            <exception cref="T:System.InvalidOperationException">The path has no existing points.</exception>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddArc(Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single)">
+            <summary>
+            Appends a fully-defined arc to the end of the path, connected by an additional line segment if the arc does not
+            begin at the path's current endpoint.
+            </summary>
+            <param name="center">The center coordinate of the the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddArc(Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Int32)">
+            <summary>
+            Appends a fully-defined arc to the end of the path, connected by an additional line segment if the arc does not
+            begin at the path's current endpoint.
+            </summary>
+            <param name="center">The center coordinate of the the arc.</param>
+            <param name="radius">The radius of the arc.</param>
+            <param name="startAngle">The starting angle of the arc in radians, where 0 is 3 O'Clock.</param>
+            <param name="arcAngle">The sweep of the arc in radians.  Positive values draw clockwise.</param>
+            <param name="subdivisions">The number of subdivisions in a circle of the same arc radius.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddArc(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Appends a fully-defined arc to the end of the path, connected by an additional line segment if the arc does not
+            begin at the path's current endpoint.
+            </summary>
+            <param name="p0">The starting point of the arc.</param>
+            <param name="p1">The ending point of the arc.</param>
+            <param name="height">The furthest point on the arc from the line connecting <paramref name="p0"/> and <paramref name="p1"/>.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddArc(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single,System.Int32)">
+            <summary>
+            Appends a fully-defined arc to the end of the path, connected by an additional line segment if the arc does not
+            begin at the path's current endpoint.
+            </summary>
+            <param name="p0">The starting point of the arc.</param>
+            <param name="p1">The ending point of the arc.</param>
+            <param name="height">The furthest point on the arc from the line connecting <paramref name="p0"/> and <paramref name="p1"/>.</param>
+            <param name="subdivisions">The number of subdivisions in a circle of the same arc radius.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddBezier(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Appends a quadratic bezier curve to the end of the path, connected by an additional line segment if the curve does not
+            begin at the path's current endpoint.
+            </summary>
+            <param name="p0">The starting point of the curve.</param>
+            <param name="p1">The first control point of the curve.</param>
+            <param name="p2">The ending point of the curve.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddBezier(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Int32)">
+            <summary>
+            Appends a quadratic Bezier curve to the end of the path, connected by an additional line segment if the curve does not
+            begin at the path's current endpoint.
+            </summary>
+            <param name="p0">The starting point of the curve.</param>
+            <param name="p1">The first control point of the curve.</param>
+            <param name="p2">The ending point of the curve.</param>
+            <param name="subdivisions">The number of subdivisions in the curve.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddBezier(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Appends a cubic Bezier curve to the end of the path, connected by an additional line segment if the curve does not
+            begin at the path's current endpoint.
+            </summary>
+            <param name="p0">The starting point of the curve.</param>
+            <param name="p1">The first control point.</param>
+            <param name="p2">The second control point.</param>
+            <param name="p3">The ending point of the curve.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddBezier(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Int32)">
+            <summary>
+            Appends a cubic Bezier curve to the end of the path, connected by an additional line segment if the curve does not
+            begin at the path's current endpoint.
+            </summary>
+            <param name="p0">The starting point of the curve.</param>
+            <param name="p1">The first control point.</param>
+            <param name="p2">The second control point.</param>
+            <param name="p3">The ending point of the curve.</param>
+            <param name="subdivisions">The number of subdivisions in the curve.</param>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddBeziers(System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},LilyPath.BezierType)">
+            <summary>
+            Appends a series of Bezier curves to the end of the path, connected by an additional line segment if the first curve
+            does not begin at the path's current endpoint.
+            </summary>
+            <param name="points">A list of points.</param>
+            <param name="bezierType">The type of Bezier</param>
+            <remarks><para>For quadratic Bezier curves, the number of points defined by the parameters should be a multiple of 2 plus 1.
+            For cubic Bezier curves, the number of points defined by the parameters should be a multiple of 3 plus 1.  For each curve
+            drawn after the first, the ending point of the previous curve is used as the starting point.</para></remarks>
+        </member>
+        <member name="M:LilyPath.PathBuilder.AddBeziers(System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Int32,System.Int32,LilyPath.BezierType)">
+            <summary>
+            Appends a series of Bezier curves to the end of the path, connected by an additional line segment if the first curve
+            does not begin at the path's current endpoint.
+            </summary>
+            <param name="points">A list of points.</param>
+            <param name="offset">The index of the first point to use from the list.</param>
+            <param name="length">The number of points to use from the list.</param>
+            <param name="bezierType">The type of Bezier</param>
+            <remarks><para>For quadratic Bezier curves, the number of points defined by the parameters should be a multiple of 2 plus 1.
+            For cubic Bezier curves, the number of points defined by the parameters should be a multiple of 3 plus 1.  For each curve
+            drawn after the first, the ending point of the previous curve is used as the starting point.</para></remarks>
+        </member>
+        <member name="M:LilyPath.PathBuilder.Stroke(LilyPath.Pen)">
+            <summary>
+            Creates an open <see cref="T:LilyPath.GraphicsPath"/> from the path with a given <see cref="T:LilyPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <returns>A computed <see cref="T:LilyPath.GraphicsPath"/>.</returns>
+        </member>
+        <member name="M:LilyPath.PathBuilder.Stroke(LilyPath.Pen,LilyPath.PathType)">
+            <summary>
+            Creates an open or closed <see cref="T:LilyPath.GraphicsPath"/> from the path with a given <see cref="T:LilyPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <returns>A computed <see cref="T:LilyPath.GraphicsPath"/>.</returns>
+        </member>
+        <member name="M:LilyPath.PathBuilder.Stroke(LilyPath.Pen,Microsoft.Xna.Framework.Matrix)">
+            <summary>
+            Creates an open <see cref="T:LilyPath.GraphicsPath"/> from a transformed copy of the path with a given <see cref="T:LilyPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="transform">The transform matrix to apply to all of the points in the path.</param>
+            <returns>A computed <see cref="T:LilyPath.GraphicsPath"/>.</returns>
+        </member>
+        <member name="M:LilyPath.PathBuilder.Stroke(LilyPath.Pen,Microsoft.Xna.Framework.Matrix,LilyPath.PathType)">
+            <summary>
+            Creates an open or closed <see cref="T:LilyPath.GraphicsPath"/> from a transformed copy of the path with a given <see cref="T:LilyPath.Pen"/>.
+            </summary>
+            <param name="pen">The pen to stroke the path with.</param>
+            <param name="transform">The transform matrix to apply to all of the points in the path.</param>
+            <param name="pathType">Whether the path is open or closed.</param>
+            <returns>A computed <see cref="T:LilyPath.GraphicsPath"/>.</returns>
+        </member>
+        <member name="M:LilyPath.PathBuilder.Reset">
+            <summary>
+            Resets the <see cref="T:LilyPath.PathBuilder"/> to empty.
+            </summary>
+        </member>
+        <member name="T:LilyPath.Pens.GradientPen">
+            <summary>
+            A <see cref="T:LilyPath.Pen"/> that blends two colors across its stroke width.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Pens.GradientPen.#ctor(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Single)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Pens.GradientPen"/> with the given colors and width.
+            </summary>
+            <param name="color1">The first pen color.</param>
+            <param name="color2">The second pen color.</param>
+            <param name="width">The width of the paths drawn by the pen.</param>
+        </member>
+        <member name="M:LilyPath.Pens.GradientPen.#ctor(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Pens.GradientPen"/> with the given colors and a width of 1.
+            </summary>
+            <param name="color1">The first pen color.</param>
+            <param name="color2">The second pen color.</param>
+        </member>
+        <member name="M:LilyPath.Pens.GradientPen.ColorAt(System.Single,System.Single,System.Single)">
+            <InheritDoc />
+        </member>
+        <member name="T:LilyPath.Pens.PathGradientPen">
+            <summary>
+            A <see cref="T:LilyPath.Pen"/> that blends two colors across the length of the stroked path.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Pens.PathGradientPen.#ctor(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Single)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Pens.GradientPen"/> with the given colors and width.
+            </summary>
+            <param name="startColor">The starting pen color.</param>
+            <param name="endColor">The ending pen color.</param>
+            <param name="width">The width of the paths drawn by the pen.</param>
+        </member>
+        <member name="M:LilyPath.Pens.PathGradientPen.#ctor(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Pens.GradientPen"/> with the given colors and a width of 1.
+            </summary>
+            <param name="startColor">The starting pen color.</param>
+            <param name="endColor">The ending pen color.</param>
+        </member>
+        <member name="P:LilyPath.Pens.PathGradientPen.NeedsPathLength">
+            <InheritDoc />
+        </member>
+        <member name="M:LilyPath.Pens.PathGradientPen.ColorAt(System.Single,System.Single,System.Single)">
+            <InheritDoc />
+        </member>
+        <member name="T:LilyPath.Shapes.Grid">
+            <summary>
+            An object that compiles a low-level geometry cache for a grid.
+            </summary>
+            <remarks>Geometry compiled by a <see cref="T:LilyPath.Shapes.Grid"/> object does not overlap at intersections, unlike a grid rendered
+            manually as a series of crossing lines.</remarks>
+        </member>
+        <member name="M:LilyPath.Shapes.Grid.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Shapes.Grid"/> object from the given columns and rows.
+            </summary>
+            <param name="columns">The number of columns in the grid.</param>
+            <param name="rows">The number of rows in the grid.</param>
+            <remarks><see cref="T:LilyPath.Shapes.Grid"/> objects initialize their memory buffers from the given column and row values.  A grid can
+            be compiled any number of times without needing to allocate new buffers.</remarks>
+        </member>
+        <member name="M:LilyPath.Shapes.Grid.Compile(LilyPath.Pen,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Compiles the grid's geometry from the given <see cref="T:LilyPath.Pen"/> and overall dimensions into a <see cref="T:LilyPath.DrawCache"/> object.
+            </summary>
+            <param name="pen">The <see cref="T:LilyPath.Pen"/> to render the grid's lines with.</param>
+            <param name="left">The ledge edge of the grid.</param>
+            <param name="top">The top edge of the grid.</param>
+            <param name="width">The width of the grid.</param>
+            <param name="height">The height of the grid.</param>
+            <returns>A <see cref="T:LilyPath.DrawCache"/> with the compiled geometry.</returns>
+            <remarks>Only the most recently compiled <see cref="T:LilyPath.DrawCache"/> is valid for any given <see cref="T:LilyPath.Shapes.Grid"/>.</remarks>
+        </member>
+        <member name="T:LilyPath.TextureBrush">
+            <summary>
+            A <see cref="T:LilyPath.Brush"/> that represents a texture.
+            </summary>
+        </member>
+        <member name="M:LilyPath.TextureBrush.#ctor(Microsoft.Xna.Framework.Graphics.Texture2D)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.TextureBrush"/> with the given texture.
+            </summary>
+            <param name="texture">A texture.</param>
+        </member>
+        <member name="M:LilyPath.TextureBrush.#ctor(Microsoft.Xna.Framework.Graphics.Texture2D,System.Single)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.TextureBrush"/> with the texture and opacity.
+            </summary>
+            <param name="texture">A texture.</param>
+            <param name="opacity">The opacity to render the texture with.</param>
+            <remarks>The <see cref="P:LilyPath.Brush.Alpha"/> property of the brush is intialized to the opacity value.
+            When the brush is rendered, any opacity already present in the texture is blended with
+            the opacity value.</remarks>
+        </member>
+        <member name="P:LilyPath.TextureBrush.Texture">
+            <summary>
+            Gets or sets the texture resource of the brush.
+            </summary>
+        </member>
+        <member name="P:LilyPath.TextureBrush.Color">
+            <summary>
+            Gets or sets the color to blend with the texture.
+            </summary>
+        </member>
+        <member name="P:LilyPath.TextureBrush.Transform">
+            <summary>
+            Gets or sets the transformation to apply to brush.
+            </summary>
+        </member>
+        <member name="P:LilyPath.TextureBrush.OwnsTexture">
+            <summary>
+            Gets or sets whether this brush "owns" the texture used to construct it, and should therefor dispose the texture
+            along with itself.
+            </summary>
+        </member>
+        <member name="M:LilyPath.TextureBrush.DisposeManaged">
+            <inherit />
+        </member>
+        <member name="T:LilyPath.PrimitivePen">
+            <summary>
+            A <see cref="T:LilyPath.Pen"/> that can only have a solid color and width of 1.
+            </summary>
+        </member>
+        <member name="M:LilyPath.PrimitivePen.#ctor(Microsoft.Xna.Framework.Color)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.PrimitivePen"/> with the given color.
+            </summary>
+            <param name="color">The pen color.</param>
+        </member>
+        <member name="T:LilyPath.Pen">
+            <summary>
+            Objects used to draw paths.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Pen.Black">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Blue">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Brown">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Cyan">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.DarkBlue">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.DarkCyan">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.DarkGoldenrod">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.DarkGray">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.DarkGreen">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.DarkMagenta">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.DarkOrange">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.DarkRed">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Goldenrod">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Gray">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Green">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.LightBlue">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.LightCyan">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.LightGray">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.LightGreen">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.LightPink">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.LightYellow">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Lime">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Magenta">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Orange">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Pink">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Purple">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Red">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Teal">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.White">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Yellow">
+            <summary>A system-defined <see cref="T:LilyPath.Pen"/> object.</summary>
+        </member>
+        <member name="P:LilyPath.Pen.Color">
+            <summary>
+            Gets the solid color or blending color of the pen.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Pen.Brush">
+            <summary>
+            Gets the <see cref="P:LilyPath.Pen.Brush"/> used to fill stroked paths.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Pen.Width">
+            <summary>
+            Gets or sets the width of the stroked path in graphical units (usually pixels).
+            </summary>
+        </member>
+        <member name="P:LilyPath.Pen.Alignment">
+            <summary>
+            Gets or sets the alignment of the stroked path relative to the ideal path being stroked.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Pen.StartCap">
+            <summary>
+            Gets or sets how the start of a stroked path is terminated.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Pen.EndCap">
+            <summary>
+            Gets or sets how the end of a stroked path is terminated.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Pen.LineJoin">
+            <summary>
+            Gets or sets how the segments in the path are joined together.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Pen.MiterLimit">
+            <summary>
+            Gets or sets the limit of the thickness of the join on a mitered corner.
+            </summary>
+            <remarks><para>The miter length is the distance from the intersection of the line walls on the inside of the join to the intersection of the line walls outside of the join. The miter length can be large when the angle between two lines is small. The miter limit is the maximum allowed ratio of miter length to stroke width. The default value is 10.0f.</para>
+            <para>If the miter length of the join of the intersection exceeds the limit of the join, then the join will be beveled to keep it within the limit of the join of the intersection.</para></remarks>
+        </member>
+        <member name="P:LilyPath.Pen.JoinLimit">
+            <summary>
+            Gets or sets the angle difference threshold in radians under which joins will be mitered instead of beveled or rounded.  
+            Defaults to PI / 8 (11.25 degrees).
+            </summary>
+        </member>
+        <member name="P:LilyPath.Pen.OwnsBrush">
+            <summary>
+            Gets or sets whether this pen "owns" the brush used to construct it, and should therefor dispose the brush
+            along with itself.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Pen.NeedsPathLength">
+            <summary>
+            Gets whether this pen needs path length values to properly calculate values at each sample point on the path.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Pen.#ctor(LilyPath.Brush,System.Single,System.Boolean)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Pen"/> with the given brush and width.
+            </summary>
+            <param name="brush">The <see cref="P:LilyPath.Pen.Brush"/> used to stroke the pen.</param>
+            <param name="width">The width of the paths drawn by the pen.</param>
+            <param name="ownsBrush"><c>true</c> if the pen should be responsible for disposing the <see cref="P:LilyPath.Pen.Brush"/>, <c>false</c> otherwise.</param>
+        </member>
+        <member name="M:LilyPath.Pen.#ctor(LilyPath.Brush,System.Single)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Pen"/> with the given brush and width.
+            </summary>
+            <param name="brush">The <see cref="P:LilyPath.Pen.Brush"/> used to stroke the pen.</param>
+            <param name="width">The width of the paths drawn by the pen.</param>
+            <remarks>By default, the pen will not take resposibility for disposing the <see cref="P:LilyPath.Pen.Brush"/>.</remarks>
+        </member>
+        <member name="M:LilyPath.Pen.#ctor(Microsoft.Xna.Framework.Color,System.Single)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Pen"/> with the given color and width.
+            </summary>
+            <param name="color">The color used to stroke the pen.</param>
+            <param name="width">The width of the paths drawn by the pen.</param>
+        </member>
+        <member name="M:LilyPath.Pen.#ctor(LilyPath.Brush)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Pen"/> with the given brush and a width of 1.
+            </summary>
+            <param name="brush">The <see cref="P:LilyPath.Pen.Brush"/> used to stroke the pen.</param>
+            <remarks>By default, the pen will not take resposibility for disposing the <see cref="P:LilyPath.Pen.Brush"/>.</remarks>
+        </member>
+        <member name="M:LilyPath.Pen.#ctor(LilyPath.Brush,System.Boolean)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Pen"/> with the given brush and a width of 1.
+            </summary>
+            <param name="brush">The <see cref="P:LilyPath.Pen.Brush"/> used to stroke the pen.</param>
+            <param name="ownsBrush"><c>true</c> if the pen should be responsible for disposing the <see cref="P:LilyPath.Pen.Brush"/>, <c>false</c> otherwise.</param>
+        </member>
+        <member name="M:LilyPath.Pen.#ctor(Microsoft.Xna.Framework.Color)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.Pen"/> with the given color and a width of 1.
+            </summary>
+            <param name="color">The color used to stroke the pen.</param>
+        </member>
+        <member name="M:LilyPath.Pen.Dispose">
+            <summary>
+            Releases all resources used by the <see cref="T:LilyPath.Pen"/> object.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Pen.Finalize">
+            <summary>
+            Attempts to dispose unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Pen.DisposeManaged">
+            <summary>
+            Releases the managed resources used by the <see cref="T:LilyPath.Pen"/>.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Pen.DisposeUnmanaged">
+            <summary>
+            Releases the unmanaged resources used by the <see cref="T:LilyPath.Pen"/>.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Pen.ColorAt(System.Single,System.Single,System.Single)">
+            <summary>
+            Queries the <see cref="T:LilyPath.Pen"/> for its color at a coordinate relative to the stroke width of the pen and length of the path.
+            </summary>
+            <param name="widthPosition">A value between 0 and 1 interpolated across the stroke width.</param>
+            <param name="lengthPosition">A value between 0 and the full length of the path.</param>
+            <param name="length">A scaling factor such that lengthPosition can be normalized to a value between 0 and 1.</param>
+            <returns>A color value.</returns>
+        </member>
+        <member name="T:LilyPath.SolidColorBrush">
+            <summary>
+            A <see cref="T:LilyPath.Brush"/> that represents a solid color.
+            </summary>
+        </member>
+        <member name="M:LilyPath.SolidColorBrush.#ctor(Microsoft.Xna.Framework.Color)">
+            <summary>
+            Creates a new <see cref="T:LilyPath.SolidColorBrush"/> from the given <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsDevice"/> and <see cref="P:LilyPath.SolidColorBrush.Color"/>.
+            </summary>
+            <param name="color">A color.</param>
+            <remarks>The <see cref="P:LilyPath.Brush.Alpha"/> property of the brush is initialized 
+            to the alpha value of the color.</remarks>
+        </member>
+        <member name="P:LilyPath.SolidColorBrush.Color">
+            <summary>
+            The color of the brush.
+            </summary>
+        </member>
+        <member name="T:LilyPath.Triangulator">
+            <summary>
+            Computes a set of interior triangles from a set of points that defines a containing path.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Triangulator.ComputedIndexes">
+            <summary>
+            The indexes of triangle list entries for the list of points used in the last <see cref="M:LilyPath.Triangulator.Triangulate(System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Int32,System.Int32)"/> call.
+            </summary>
+        </member>
+        <member name="P:LilyPath.Triangulator.ComputedIndexCount">
+            <summary>
+            The number of indexes generated in the last computation.
+            </summary>
+        </member>
+        <member name="M:LilyPath.Triangulator.Triangulate(System.Collections.Generic.IList{Microsoft.Xna.Framework.Vector2},System.Int32,System.Int32)">
+            <summary>
+            Computes a triangle list that fully covers the area enclosed by the given set of points.
+            </summary>
+            <param name="points">A list of points that defines an enclosing path.</param>
+            <param name="offset">The offset of the first point in the list.</param>
+            <param name="count">The number of points in the path.</param>
+        </member>
+    </members>
+</doc>

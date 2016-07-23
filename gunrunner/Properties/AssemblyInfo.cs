@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("gunrunner")]
-[assembly: AssemblyProduct("gunrunner")]
+[assembly: AssemblyTitle("GunRunner")]
+[assembly: AssemblyProduct("GunRunner")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2015")]
+[assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c0f3f92f-efec-4f9a-99b8-4699b3c28246")]
+[assembly: Guid("be366fa4-5780-44a5-a0ce-faeae79a8aaf")]
 
 // Version information for an assembly consists of the following four values:
 //
